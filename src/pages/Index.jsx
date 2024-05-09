@@ -18,14 +18,17 @@ const Index = () => {
       <VStack spacing={8} py={12} as="main">
         <Box id="about" p={8}>
           <Heading as="h2" size="xl">About Us</Heading>
+          <Image src="/images/about-us.jpg" alt="About Us" />
           <Text mt={4}>We invest in innovative companies with the potential to disrupt their industries and drive significant growth.</Text>
         </Box>
         <Box id="portfolio" p={8}>
           <Heading as="h2" size="xl">Portfolio Companies</Heading>
+          <Image src="/images/portfolio.jpg" alt="Portfolio Companies" />
           <Text mt={4}>Our portfolio includes a diverse range of companies across various sectors, demonstrating our commitment to fostering innovation.</Text>
         </Box>
         <Box id="team" p={8}>
           <Heading as="h2" size="xl">Our Team</Heading>
+          <Image src="/images/team.jpg" alt="Our Team" />
           <Text mt={4}>Our team comprises experienced professionals with deep industry knowledge and a proven track record in building successful businesses.</Text>
         </Box>
         <Box id="contact" p={8} bg="gray.100">
